@@ -1,0 +1,44 @@
+.holder {
+  display: flex;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 5px solid black;
+}
+.item-4 {
+  order: 5;
+  background-color: green;
+  flex-grow: 1;
+  height: 200px;
+  text-align: center;
+}
+.item-2 {
+  background-color: #1e76ce;
+  order: 4;
+  flex-grow: 1;
+  height: 200px;
+  text-align: center;
+}
+.item-3 {
+  background-color: #6d0dc2;
+  order: 3;
+  flex-grow: 1;
+  height: 200px;
+  text-align: center;
+}
+.item-5 {
+  background-color: rgb(255, 124, 80);
+  order: 2;
+  flex-grow: 2;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+}
+.item-1 {
+  background-color: red;
+  order: 1;
+  flex-grow: 2;
+  height: 200px;
+  width: 500px;
+  text-align: center;
+}
